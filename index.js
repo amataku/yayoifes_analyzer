@@ -6,8 +6,8 @@ const morgan = require('morgan')
 const bodyParser = require('body-parser')
 
 // listneing config
-app.listen(process.env.SERVER_PORT, process.env.SERVER_HOST, () => {
-  console.log(`${process.env.SERVER_HOST}:${process.env.SERVER_PORT} listneing!`)
+app.listen(process.env.PORT, () => {
+  console.log("listneing!")
 })
 
 // body parser
