@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/rikyuusima/yayoifes_analyzer/issues"
   },
-  "homepage": "https://github.com/rikyuusima/yayoifes_analyzer#readme"
+  "homepage": "https://github.com/rikyuusima/yayoifes_analyzer#readme",
+  "dependencies": {
+    "mysql": "^2.15.0"
+  }
 }
