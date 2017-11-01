@@ -1,0 +1,8 @@
+# dir
+node_modules/
+.module-cache/
+
+# file
+.DS_Store
+.envrc
+.#*

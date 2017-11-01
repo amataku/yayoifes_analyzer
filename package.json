@@ -1,0 +1,19 @@
+{
+  "name": "yayoifes_analyzer",
+  "version": "1.0.0",
+  "description": "客層判別システム",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rikyuusima/yayoifes_analyzer.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rikyuusima/yayoifes_analyzer/issues"
+  },
+  "homepage": "https://github.com/rikyuusima/yayoifes_analyzer#readme"
+}
