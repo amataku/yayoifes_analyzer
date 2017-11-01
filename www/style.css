@@ -1,0 +1,49 @@
+p{
+  margin-left: 40px;
+}
+
+h1{
+  margin-left: 20px;
+}
+
+.btn-m{
+  display: inline-block;
+  text-decoration: none;
+  background: #87befd;
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  text-align: center;
+  vertical-align: middle;
+  overflow: hidden;
+  transition: .4s;
+  margin: 5px;
+}
+
+.btn-m:hover{
+  background: #74a4db;
+}
+
+.btn-l{
+  display: inline-block;
+  text-decoration: none;
+  background: #f75b5b;
+  font-size: 18px;
+  font-weight: bold;
+  color: #FFF;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  text-align: center;
+  vertical-align: middle;
+  overflow: hidden;
+  transition: .4s;
+  margin: 5px;
+}
+
+.btn-l:hover{
+  background: #c14b4b;
+}
