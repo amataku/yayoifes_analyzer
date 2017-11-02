@@ -5,6 +5,7 @@ const joi = require('joi')
 const Database_Class = require('../database/query.js')
 const database = new Database_Class()
 const bodyParser = require('body-parser')
+const moment = require('moment')
 
 router.use(bodyParser.json())
 
@@ -22,7 +23,7 @@ router.post('/customer', (req, res) => {
     else{
       // insert to db
       database.add_customer({
-        visit_date: new Date(),
+        visit_date: moment().format("YYYY-MM-DD HH:mm:ss"),
         sex: req.body.sex,
         age: req.body.age
       }, () => {
