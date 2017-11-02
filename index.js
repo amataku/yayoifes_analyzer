@@ -5,11 +5,6 @@ const server_api = require('./routes/api.js')
 const morgan = require('morgan')
 const bodyParser = require('body-parser')
 
-// listneing config
-app.listen(process.env.PORT, () => {
-  console.log("listneing!")
-})
-
 // body parser
 app.use(bodyParser.json())
 
@@ -21,4 +16,9 @@ app.use(express.static(__dirname + '/www'))
 
 // routing to api.js
 app.use('/api', server_api)
+
+// listneing config
+app.listen(process.env.PORT, () => {
+  console.log("listneing!")
+})
 
