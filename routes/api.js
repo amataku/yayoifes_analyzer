@@ -7,7 +7,11 @@ const database = new Database_Class()
 const bodyParser = require('body-parser')
 const moment = require('moment')
 
-router.use(bodyParser.json())
+router.get('/customer', (req, res) => {
+  database.get_all_customer((rows) => {
+    res.send(rows)
+  })
+})
 
 router.post('/customer', (req, res) => {
   console.log(req.body)
