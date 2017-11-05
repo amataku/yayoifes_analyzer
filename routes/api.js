@@ -5,7 +5,10 @@ const joi = require('joi')
 const Database_Class = require('../database/query.js')
 const database = new Database_Class()
 const bodyParser = require('body-parser')
-const moment = require('moment')
+const moment = require('moment-timezone')
+
+// config
+moment.tz.setDefault("Asia/Tokyo") // set timezone to Asia/Tokyo
 
 router.get('/customer', (req, res) => {
   database.get_all_customer((rows) => {
